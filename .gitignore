@@ -1,0 +1,18 @@
+# Нашёл вот такую заготовочку:
+
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform.lock.hcl
+
+# Sensitive files
+key.json
+*.pem
+*.pub
+*.priv
+
+# IDE files
+.idea/
+.vscode/
